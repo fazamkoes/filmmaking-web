@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Creative Collaboration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Creative Collaboration</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#upload">Upload</a></li>
+                <li><a href="#collaborate">Collaborate</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </nav>
+        <div id="auth">
+            <button id="logout-button">Log Out</button>
+        </div>
+    </header>
+    <main>
+        <section id="profile">
+            <h2>Your Profile</h2>
+            <div id="profile-info">
+                <img id="profile-picture" src="default-profile.png" alt="Profile Picture">
+                <input type="file" id="profile-picture-upload" accept="image/*">
+                <textarea id="profile-bio" placeholder="Write your bio here..."></textarea>
+                <button id="save-profile-button">Save Profile</button>
+            </div>
+            <h3>Your Media</h3>
+            <div id="user-media-gallery"></div>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>

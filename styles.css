@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+#media-gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#media-gallery img, #media-gallery video {
+    margin: 1em;
+    max-width: 200px;
+}
+
+#collaborate-requests {
+    margin-top: 1em;
+}
+
+.collaborate-message {
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+
+#auth {
+    text-align: center;
+    margin-top: 1em;
+}
+
+#auth form {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+#auth button {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+.grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.grid-gallery img, .grid-gallery video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Add styles for the grid gallery */
+.grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.grid-gallery img, .grid-gallery video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Style for media items */
+.media-item {
+    position: relative;
+}
+
+.comment-section {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+    display: none;
+}
+
+.media-item:hover .comment-section {
+    display: block;
+}
+
+/* Add styles for the grid gallery */
+.grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.grid-gallery img, .grid-gallery video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Style for media items */
+.media-item {
+    position: relative;
+}
+
+.comment-section {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+    display: none;
+}
+
+.media-item:hover .comment-section {
+    display: block;
+}
+
+/* Add styles for the grid gallery */
+.grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.grid-gallery img, .grid-gallery video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Style for media items */
+.media-item {
+    position: relative;
+}
+
+.comment-section {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+    display: none;
+}
+
+.media-item:hover .comment-section {
+    display: block;
+}
+
+
